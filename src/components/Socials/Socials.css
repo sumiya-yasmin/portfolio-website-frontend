@@ -1,0 +1,40 @@
+.social ol{
+    display: flex; 
+    align-items: center;
+    justify-content: flex-start;
+    gap: 15px;
+    /* color: #eaff50; */
+  
+  }
+  .social li{
+    padding: 10px 5px 10px 0px;
+    transition: .5s ease;
+  }
+  .social li:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0.25rem 1.125rem #bddbc6;;
+  }
+  
+  .bxl-linkedin{
+    background-color: #0072B1 ;
+    padding: 3px;
+  }
+  .bxl-github{
+    background-color: black;
+    padding: 3px;
+  }
+  .gmail img{
+    width: 45px;
+    padding: 3px;
+  }
+  @media screen and (max-width:768px) {
+    .social{
+        padding: 10px;
+    }
+    .social ol{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        column-gap: 20px;
+    }
+    
+  }

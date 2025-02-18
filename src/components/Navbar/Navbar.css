@@ -1,0 +1,53 @@
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content:flex-end;
+    gap: 50px;
+  }
+
+nav a{
+  color: #245c3a;
+  font-size: 1.25rem;
+  transition: font-size 0.3s ease, transform 0.3s ease;
+}
+nav a:hover{
+  font-size: 1.5rem;
+  color: #113b21;;
+    
+}
+
+  nav{
+    display: flex;
+    justify-content:flex-end;
+    padding: 20px 10px;
+  
+  }
+  @media screen and (max-width:768px) {
+    nav{
+        justify-content:center;
+    }
+    
+    nav p{
+        display:none;
+    }
+    nav ul{
+        justify-content:space-between;
+        gap: 30px;
+        flex-wrap: wrap;
+       
+        
+    }
+   
+  }
+
+  @media (max-width: 480px) {
+  
+    nav ul{
+      justify-content:space-between;
+      gap: 30px;
+      flex-direction: column;
+     
+      
+  }
+  }
+
