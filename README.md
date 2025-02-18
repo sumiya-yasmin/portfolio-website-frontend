@@ -1,8 +1,19 @@
-# React + Vite
+# 🌐 Sumiya Yasmin - Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 **Live Demo:** [View Portfolio](https://your-live-demo-link.com)  
 
-Currently, two official plugins are available:
+## 📌 About  
+This is my personal portfolio website showcasing my projects, skills, and experience as a web developer. The website is built using:  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **HTML, CSS, JavaScript**    
+- **Smooth scrolling and interactive UI elements**  
+
+## 🎨 Features  
+✅ Fully responsive and mobile-friendly
+✅ Built with **React.js**
+✅ Modern UI with animations and hover effects  
+✅ Projects section with interactive previews  
+✅ Contact form with JavaScript validation  
+
+## 📸 Preview  
+![image](https://github.com/user-attachments/assets/c64df260-6beb-4056-8671-007b15744339)
