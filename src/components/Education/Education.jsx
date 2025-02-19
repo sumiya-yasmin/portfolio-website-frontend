@@ -17,7 +17,7 @@ Education.propTypes={
     education : PropTypes.shape(
             {title: PropTypes.string.isRequired,
             university: PropTypes.string.isRequired,
-            cgpa: PropTypes.number.isRequired,
+            cgpa: PropTypes.string.isRequired,
             },
         ).isRequired
 }

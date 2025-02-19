@@ -9,8 +9,8 @@ export function About({about}){
     )
 }
 
-About.propTypes={
-    about:{
+About.propTypes = {
+    about: PropTypes.shape({
         description: PropTypes.string.isRequired
-    }
-}
+    }).isRequired
+};

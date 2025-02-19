@@ -6,7 +6,7 @@ export function Projects({projectLists}){
         <h1>Projects</h1>
         <div className="list-projects">
                 {projectLists.map((item)=> (
-                <div className="list-p">
+                <div className="list-p" key={item.name}>
                  <h3>{item.name}</h3>
                  <p>{item.description}</p>
                  <button><a href={item.link}>View the project</a></button>
