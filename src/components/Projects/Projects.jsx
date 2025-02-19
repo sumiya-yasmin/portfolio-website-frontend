@@ -9,7 +9,7 @@ export function Projects({projectLists}){
                 <div className="list-p">
                  <h3>{item.name}</h3>
                  <p>{item.description}</p>
-                 <p><a href={item.link}>View the project</a></p>
+                 <button><a href={item.link}>View the project</a></button>
                 </div>
                 ))}
                 </div>

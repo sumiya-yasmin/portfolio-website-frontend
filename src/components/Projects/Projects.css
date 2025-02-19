@@ -12,7 +12,7 @@
     flex-direction: column;
     align-items:start;
     justify-content: center;
-    width: 500px;
+    width: 800px;
     gap: 10px;
     padding: 20px;
     box-shadow: 0.3125rem 0.25rem 1.25rem rgba(71, 9, 9, 0.2);
@@ -23,11 +23,22 @@
       transform: scale(1.05);
       box-shadow: 0 0.25rem 1.125rem;
     }
-  .list-p a{
-    color: #245c3a;
+  .list-p button{
+    background-color: #245c3a;
+    color: #bddbc6;
+    padding: 5px;
   }
+  .list-p a{
+    background-color: #245c3a;
+    color: #bddbc6
+  }
+  .list-p button:hover{
+    background-color:#bddbc6 ;
+    color: #113b21;
 
+  }
  .list-p a:hover{
+      background-color:#bddbc6 ;
       color: #113b21;
       cursor: pointer;
     }

@@ -4,13 +4,16 @@ export function Contact(){
         <section id="Contact">
         <h1>Contact Me</h1> 
         <div className="list-c">
-            <form action="" method="post">
-                <label for="name">Name:</label>
-                <input type="text" placeholder="your name here"/>
-                <label for="email">Email:</label>
-                <input type="email" placeholder="Your email"/>
-                <label for="message">Message:</label>
-                <textarea placeholder="Send a text"></textarea>
+            <form  action="https://formspree.io/f/mbldqazd" method="POST">
+                <label> Name:
+                <input type="text" placeholder="your name here" name='text'/>
+                </label>
+                <label>Email:
+                <input type="email" placeholder="Your email" name='email'/>
+                </label>
+                <label>Message:
+                <textarea placeholder="Send a text" name='message'></textarea>
+                </label>
                 <button type="submit">Send Message</button>
             </form>
         </div>
